@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Autos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Concesionario de autos usados</h1>
+  </header>
+
+  <section class="filters">
+    <input type="text" id="searchInput" placeholder="Buscar por marca o modelo...">
+
+    <div class="price-range">
+      <label for="minPrice">Precio mínimo:</label>
+      <input type="number" id="minPrice" placeholder="0">
+      <label for="maxPrice">Precio máximo:</label>
+      <input type="number" id="maxPrice" placeholder="1000000">
+    </div>
+
+    <button id="filterButton">Buscar</button>
+  </section>
+
+  <section id="results" class="results">
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
